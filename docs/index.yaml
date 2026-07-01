@@ -1,22 +1,32 @@
 apiVersion: v1
 entries:
+  market-app:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-07-01T09:50:37.779014629+09:00"
+    description: market-app helm chart
+    digest: c4a7553c56d25c887644f8a6f114225db5ccf7808d9cfbc8cde3ff4e14835486
+    name: market-app
+    urls:
+    - https://tkddn3901.github.io/my-helm-chart/market-app-0.1.0.tgz
+    version: 0.1.0
   member-app:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2026-06-29T11:39:38.381021852+09:00"
+    created: "2026-07-01T09:50:37.78030842+09:00"
     digest: 3d9776ec73eb654757eecb58890d1145617f97f2d93872a5a1c074d81dcfab7c
     name: member-app
     type: application
     urls:
-    - https:tkddn3901.github.io/my-helm-chart/
+    - https://tkddn3901.github.io/my-helm-chart/member-app-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-06-29T11:39:38.38090161+09:00"
+    created: "2026-07-01T09:50:37.779884355+09:00"
     digest: e2854f4e0c9038d167c4ae81f6c544ee0964febef9b07fd110b59b367d7cf5f5
     name: member-app
     type: application
     urls:
-    - https:tkddn3901.github.io/my-helm-chart/
+    - https://tkddn3901.github.io/my-helm-chart/member-app-0.1.0.tgz
     version: 0.1.0
-generated: "2026-06-29T11:39:38.380589637+09:00"
+generated: "2026-07-01T09:50:37.778801252+09:00"
